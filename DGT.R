@@ -21,8 +21,8 @@ library(data.table)
 
 
 # Read DGT data
-dgt1=fread("export_distintivo_ambiental_20250112.txt", sep='|')
-dgt2=fread("export_distintivo_ambiental_20250226.txt", sep='|')
+dgt1=fread("export_distintivo_ambiental_20250103.txt", sep='|')
+dgt2=fread("export_distintivo_ambiental_20250307.txt", sep='|')
 
 # Table cleaning
 setnames(dgt1, "TIPO DE ETIQUETA", "ETIQUETA1")
